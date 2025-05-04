@@ -1,0 +1,15 @@
+This project reimplements and organizes a manual EMRT/RL statistical arbitrage
+implementation inspired by:
+
+  Boming Ning and Kiseop Lee,
+  "Advanced Statistical Arbitrage with Reinforcement Learning",
+  February 26, 2024.
+
+The paper is credited as the methodological source. This repository does not
+redistribute the paper PDF by default. Public references:
+
+  arXiv: https://arxiv.org/abs/2403.12180
+  SSRN:  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4739373
+
+The local implementation is distributed under the MIT License.
+

@@ -1,0 +1,8 @@
+services:
+  emrt-rl:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./logs:/app/logs
+      - ./wfa_results:/app/wfa_results

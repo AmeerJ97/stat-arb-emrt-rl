@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this project, cite the upstream EMRT/RL paper and this repository."
+title: "Stat Arb EMRT RL"
+version: "0.1.0"
+license: MIT
+date-released: 2026-05-04
+authors:
+  - name: "Stat Arb EMRT RL Contributors"
+references:
+  - type: article
+    title: "Advanced Statistical Arbitrage with Reinforcement Learning"
+    authors:
+      - family-names: "Ning"
+        given-names: "Boming"
+      - family-names: "Lee"
+        given-names: "Kiseop"
+    date: 2024-02-26
+    url: "https://arxiv.org/abs/2403.12180"
+

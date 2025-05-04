@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stat-arb-emrt-rl"
+version = "0.1.0"
+description = "EMRT and reinforcement-learning statistical arbitrage research toolkit."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Stat Arb EMRT RL Contributors" }]
+keywords = [
+  "statistical-arbitrage",
+  "mean-reversion",
+  "reinforcement-learning",
+  "cointegration",
+  "backtesting",
+]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+  "statsmodels>=0.14",
+  "yfinance>=0.2.36",
+  "backtrader>=1.9.78.123",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "joblib>=1.3",
+  "tqdm>=4.66",
+  "python-dateutil>=2.9",
+  "python-dotenv>=1.0",
+  "requests>=2.31",
+  "numba>=0.59",
+]
+
+[project.optional-dependencies]
+ui = [
+  "streamlit>=1.35",
+  "plotly>=5.22",
+]
+gpu = [
+  "cupy-cuda12x>=13.3; platform_system == 'Linux' and platform_machine == 'x86_64'",
+]
+dev = [
+  "pytest>=8.2",
+  "pytest-cov>=5.0",
+  "ruff>=0.5",
+  "build>=1.2",
+]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2403.12180"
+SSRN = "https://ssrn.com/abstract=4739373"
+
+[project.scripts]
+emrt-rl = "stat_arb_emrt_rl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

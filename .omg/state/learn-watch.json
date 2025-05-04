@@ -1,0 +1,12 @@
+{
+  "last_session_id": "0aebc3b7-e639-4de2-894a-538c6bf489f5",
+  "last_event_key": "0aebc3b7-e639-4de2-894a-538c6bf489f5:transcript:9ef9905890f0e4170cc6ca4ff6d0dd5533efea0697632972ad702a762ffe546f",
+  "last_prompted_session_id": "",
+  "last_reason": "short-session",
+  "last_prompted_at": "",
+  "last_user_message_count": 0,
+  "last_actionable_message_count": 0,
+  "deep_interview_lock_active": false,
+  "deep_interview_lock_source": "/home/core/dev/prod/stat_arb_emrt_rl/.omg/state/deep-interview.json",
+  "updated_at": "2026-05-04T14:47:42.882Z"
+}
