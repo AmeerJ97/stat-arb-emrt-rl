@@ -1,9 +1,0 @@
-{
-  "turn_count": 0,
-  "last_session_id": "0aebc3b7-e639-4de2-894a-538c6bf489f5",
-  "last_event_key": "0aebc3b7-e639-4de2-894a-538c6bf489f5:transcript:9ef9905890f0e4170cc6ca4ff6d0dd5533efea0697632972ad702a762ffe546f",
-  "last_transcript_hash": "9ef9905890f0e4170cc6ca4ff6d0dd5533efea0697632972ad702a762ffe546f",
-  "cwd_mode": "parent-leaf",
-  "last_cwd_label": "prod/stat_arb_emrt_rl",
-  "updated_at": "2026-05-04T14:47:42.880Z"
-}
